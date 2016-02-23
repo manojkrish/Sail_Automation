@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Informal_Test_Case">
+	<test name="Dashboard_Status_Feed_Test_Case">
+		<listeners>
+		<listener class-name="com.ExtentReport.ExtentReporterNG" />
+		</listeners>
+		<classes>
+		<class name="com.obj.Dashboard_Widget.Dashboard_Status_Feed_TestScript" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> 
+

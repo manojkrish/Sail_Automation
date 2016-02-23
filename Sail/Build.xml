@@ -85,7 +85,7 @@
 		</copy>
 	</target>
 	<target name="makezip" depends="copyTestResultToTomcat" description="Make a zip file for result file.">
-		<zip destfile="testresultZIP/iaptest.zip" basedir="Sailautomationresult" />
+		<zip destfile="testresultZIP/SAILtest.zip" basedir="Sailautomationresult" />
 
 	</target>
 

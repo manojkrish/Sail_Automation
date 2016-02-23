@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Informal_Test_Case" duration-ms="61903" started-at="2016-02-23T12:03:46Z" finished-at="2016-02-23T12:04:48Z">
+    <groups>
+    </groups>
+    <test name="Status_Feed" duration-ms="61903" started-at="2016-02-23T12:03:46Z" finished-at="2016-02-23T12:04:48Z">
+      <class name="com.obj.StatusFeed.Status_Feed_TestScript">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.obj.StatusFeed.Status_Feed_TestScript@2133c8f8]" name="OpenBrowser" is-config="true" duration-ms="32331" started-at="2016-02-23T17:33:46Z" finished-at="2016-02-23T17:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Status_Feed_TestCase()[pri:0, instance:com.obj.StatusFeed.Status_Feed_TestScript@2133c8f8]" name="Status_Feed_TestCase" duration-ms="29565" started-at="2016-02-23T17:34:18Z" finished-at="2016-02-23T17:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Status_Feed_TestCase -->
+      </class> <!-- com.obj.StatusFeed.Status_Feed_TestScript -->
+    </test> <!-- Status_Feed -->
+  </suite> <!-- Informal_Test_Case -->
+</testng-results>
