@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Informal_Test_Case]">
+  <listeners>
+    <listener class-name="com.ExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="File_Upload_Test(failed)">
+    <classes>
+      <class name="com.obj.About.About_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.About.About_Test_Case -->
+      <class name="com.obj.Discussion.Discussion_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.Discussion.Discussion_Test_Case -->
+      <class name="com.obj.FileUpload.File_Upload_Test_Case">
+        <methods>
+          <include name="FileUpload_Test"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.FileUpload.File_Upload_Test_Case -->
+      <class name="com.obj.TestScript.Dashboard_Status_Feed_TestScript">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.TestScript.Dashboard_Status_Feed_TestScript -->
+    </classes>
+  </test> <!-- File_Upload_Test(failed) -->
+  <test name="Discussion_Test(failed)">
+    <classes>
+      <class name="com.obj.About.About_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.About.About_Test_Case -->
+      <class name="com.obj.Discussion.Discussion_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="Deleting_Discussion_Replies_Test"/>
+          <include name="Editing_Discussion_Replies_Test"/>
+        </methods>
+      </class> <!-- com.obj.Discussion.Discussion_Test_Case -->
+      <class name="com.obj.TestScript.Dashboard_Status_Feed_TestScript">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.TestScript.Dashboard_Status_Feed_TestScript -->
+      <class name="com.obj.FileUpload.File_Upload_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.FileUpload.File_Upload_Test_Case -->
+    </classes>
+  </test> <!-- Discussion_Test(failed) -->
+  <test name="About_Test(failed)">
+    <classes>
+      <class name="com.obj.About.About_Test_Case">
+        <methods>
+          <include name="Profile_Basic_Information_In_About"/>
+          <include name="About_Me_Test"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.About.About_Test_Case -->
+      <class name="com.obj.Discussion.Discussion_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.Discussion.Discussion_Test_Case -->
+      <class name="com.obj.TestScript.Dashboard_Status_Feed_TestScript">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.TestScript.Dashboard_Status_Feed_TestScript -->
+      <class name="com.obj.FileUpload.File_Upload_Test_Case">
+        <methods>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.obj.FileUpload.File_Upload_Test_Case -->
+    </classes>
+  </test> <!-- About_Test(failed) -->
+</suite> <!-- Failed suite [Informal_Test_Case] -->
