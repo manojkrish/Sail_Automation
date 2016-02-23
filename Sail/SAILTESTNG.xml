@@ -6,9 +6,17 @@
 		<listener class-name="com.ExtentReport.ExtentReporterNG" />
 		</listeners>
 		<classes>
-		<class name="com.obj.TestScript.Dashboard_Status_Feed_TestScript" />
+		<class name="com.obj.Dashboard_Widget.Dashboard_Status_Feed_TestScript" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="Status_Feed">
+		<listeners>
+		<listener class-name="com.ExtentReport.ExtentReporterNG" />
+		</listeners>
+		<classes>
+		<class name="com.obj.StatusFeed.Status_Feed_TestScript" />
+		</classes>
+	</test>	
 	<test name="File_Upload_Test">
 		<listeners>
 		<listener class-name="com.ExtentReport.ExtentReporterNG" />
@@ -17,20 +25,12 @@
 		<class name="com.obj.FileUpload.File_Upload_Test_Case" />
 		</classes>
 	</test>	
-	<test name="Discussion_Test">
+	<test name="Link_Test">
 		<listeners>
 		<listener class-name="com.ExtentReport.ExtentReporterNG" />
 		</listeners>
 		<classes>
-		<class name="com.obj.Discussion.Discussion_Test_Case" />
-		</classes>
-	</test>	
-	<test name="About_Test">
-		<listeners>
-		<listener class-name="com.ExtentReport.ExtentReporterNG" />
-		</listeners>
-		<classes>
-		<class name="com.obj.About.About_Test_Case" />
+		<class name="com.obj.Links.Link_Upload_TestScript" />
 		</classes>
 	</test>	
 </suite> 

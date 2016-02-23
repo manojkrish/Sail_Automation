@@ -41,7 +41,7 @@ public class BrowserInit {
 
 		driver.navigate().refresh();
 
-		driver.get("https://stageworld.wallstreetenglish.com/");
+		driver.get("https://stageworld.wallstreetenglish.com.cn/");
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		

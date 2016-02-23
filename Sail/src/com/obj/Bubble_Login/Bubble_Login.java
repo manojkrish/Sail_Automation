@@ -87,7 +87,7 @@ public class Bubble_Login implements Bubble_Login_Inter {
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(User_Name_Field));
 		
-		We.sendKeys("kor02.00120.us");
+		We.sendKeys("tensz.31680.cn");
 		
 	}
 	
@@ -121,7 +121,7 @@ public class Bubble_Login implements Bubble_Login_Inter {
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(Password_Field));
 		
-		We.sendKeys("Pa@101513");
+		We.sendKeys("Password123$");
 	}
 	
 	public boolean Is_Login_Button_Enabled() {

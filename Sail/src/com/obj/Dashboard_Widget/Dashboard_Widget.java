@@ -85,7 +85,6 @@ public class Dashboard_Widget implements Dashboard_Widget_Interface {
 			
 	By Link_Text_Field = By.cssSelector("html body.push-menu div.app-container div.content div div div#dashboard.container div.sail div div.sail-block div.col-md-6.clr-right-pad div.row share-widget section#status-widget.col-xs-12.col-sm-12.col-md-12.fadeInUp div#status-widget-body section.status-box div div.tab-content div.tab-pane.active div.status-body div link-post.ng-pristine.ng-untouched.ng-valid div.linktab.ng-pristine.ng-untouched.ng-valid div.status-block div.input-element.update-txt");
 	
-	
 		
 	@SuppressWarnings("static-access")
 	//Teaser Post Page Objects

@@ -79,5 +79,7 @@ package com.obj.FileUpload;
 		public void Click_File_Download() throws InterruptedException;
 			
 		public void Click_Image_Download() throws InterruptedException;
+		
+		public void Close_Modal_Popup();
 	
 	}

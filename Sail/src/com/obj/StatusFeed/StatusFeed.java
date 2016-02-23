@@ -3,10 +3,6 @@ package com.obj.StatusFeed;
 //import java.io.FileInputStream;
 //import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
-
-
-
 //import org.apache.poi.hssf.usermodel.HSSFRow;
 //import org.apache.poi.hssf.usermodel.HSSFSheet;
 //import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -22,6 +18,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 //import org.testng.Assert;
 
+@SuppressWarnings("unused")
 public class StatusFeed implements Sail_Interface_Status_feed {
 
 	public WebDriver driver;

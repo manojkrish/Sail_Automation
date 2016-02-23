@@ -14,15 +14,19 @@ public class Links implements Links_Interface{
 	
 	public WebDriver driver;
 	
-	By Link_Tab = By.xpath("/html/body/div[2]/div[2]/div[3]/div/div/div/share-widget/section/div[1]/section/div/ul/li[4]/a");
+	@SuppressWarnings("static-access")
+	By Link_Tab = By.className("nav-tabs").id("tabclick_3");
 	
-	By Link_Text_Field = By.xpath("/html/body/div[2]/div[2]/div[3]/div/div/div/share-widget/section/div[1]/section/div/div/div[4]/div/div/link-post/div[1]/div/div[1]");
+	By Link_Text_Field = By.cssSelector("html body.push-menu div.app-container div.content div div.container div.row.sail div.col-md-6.col-sm-8.col-sm-offset-2.col-xs-12.col-md-offset-3 share-widget section#status-widget.col-xs-12.col-sm-12.col-md-12.fadeInUp div#status-widget-body section.status-box div div.tab-content div.tab-pane.active div.status-body div link-post.ng-pristine.ng-untouched.ng-valid div.linktab.ng-pristine.ng-untouched.ng-valid div.status-block div.input-element.update-txt");
 	
 	By Meta_Description = By.xpath("/html/body/div[2]/div[2]/div[3]/div/div/div/share-widget/section/div[1]/section/div/div/div[4]/div/div/link-post/div[2]/div");
 	
 	By Meta_Description_Close = By.xpath("/html/body/div[2]/div[2]/div[3]/div/div/div/share-widget/section/div[1]/section/div/div/div[4]/div/div/link-post/div[2]/div/button");
 	
-	By clickPost = By.xpath("/html/body/div[2]/div[2]/div[3]/div/div/div/share-widget/section/div[2]/button");
+	By Widget_Footer = By.id("status-widget-footer");
+	
+	@SuppressWarnings("static-access")
+	By clickPost = Widget_Footer.className("post-btn");
 	
 	public Links(WebDriver driver)
 	{
@@ -96,7 +100,7 @@ public class Links implements Links_Interface{
 		
 		
 		
-		String st[] = {"http://www.youtube.com","http://www.yahoo.com","http://www.gmail.com"};
+		String st[] = {"http://www.china123.com","http://www.yahoo.com","http://www.china.com"};
 		
 		for(int i =0 ; i<st.length ;i++)
 		{

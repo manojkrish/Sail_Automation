@@ -37,7 +37,7 @@ public class FileUpload implements FileUpload_Interface{
 	@SuppressWarnings("static-access")
 	By Download_File = File_Posted_Block.className("file-cancel");
 	
-	By Download_Image = By.cssSelector("html body.push-menu div.app-container div.content div div.container div.row.sail div.col-md-6.col-sm-8.col-sm-offset-2.col-xs-12.col-md-offset-3 div.preview-container share-preview#feed_id-56c706c48d1986bc4eec83ec section#post-widget.col-xs-12.col-sm-12.col-md-12.fadeInUp div#post-widget-body.row div.preview-block section.posting-body div.post-body div.data-list div.disp-list upload-view div div div a img.img-responsive.light-box-img");
+	By Download_Image = By.cssSelector("html body.push-menu div.app-container div.content div div.container div.row.sail div.col-md-6.col-sm-8.col-sm-offset-2.col-xs-12.col-md-offset-3 div.preview-container share-preview#feed_id-56cc224fbe08b7c9f4a6c338 section#post-widget.col-xs-12.col-sm-12.col-md-12.fadeInUp div#post-widget-body.row div.preview-block section.posting-body div.post-body div.data-list div.disp-list upload-view div div div a img.img-responsive.light-box-img");
 
 	By Modal_Close = By.cssSelector("html body.push-menu.modal-open div.modal.fade.sail-modal.in div.modal-dialog.modal-lg div.modal-content img-prev button.close.light-box-close");
 	
@@ -848,6 +848,18 @@ public class FileUpload implements FileUpload_Interface{
 		We.click();
 		
 		Thread.sleep(7000);
+		
+	}
+
+	public void Close_Modal_Popup() {
+		
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		
+		WebElement We = driver.findElement(Modal_Close);
+		
+		wait.until(ExpectedConditions.elementToBeClickable(We));
+		
+		We.click();
 		
 	}
 

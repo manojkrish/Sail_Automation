@@ -6,13 +6,13 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.google.common.base.CharMatcher;
 import com.obj.Browser.BrowserInit;
 import com.obj.Comment.Comment_In_The_Post;
 import com.obj.Dashboard_Widget.Dashboard_Widget;
 import com.obj.Edit_Status.Edit_Status;
 
+@SuppressWarnings("unused")
 public class Status_Feed_TestScript extends BrowserInit {
 	
 	@Test

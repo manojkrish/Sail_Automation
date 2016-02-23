@@ -28,7 +28,7 @@ public class File_Upload_Test_Case extends BrowserInit {
 		dw.Click_Feed_Page_Navigation();
 		
 		Thread.sleep(4000);
-		/*
+		
 		fu.Is_File_Tab_Enabled();
 		
 		fu.Is_File_Tab_Displayed();
@@ -43,8 +43,8 @@ public class File_Upload_Test_Case extends BrowserInit {
 		
 		fu.Get_File_Block();
 		
-		fu.Click_File_Download();*/
-	
+		fu.Click_File_Download();
+		
 		fu.Is_File_Tab_Enabled();
 		
 		fu.Is_File_Tab_Displayed();
@@ -57,7 +57,9 @@ public class File_Upload_Test_Case extends BrowserInit {
 		
 		fu.Is_Image_Block_Displayed();
 		
-		fu.Click_File_Download();
+		fu.Click_Image_Download();
+		
+		fu.Close_Modal_Popup();
 		
 		
 		
